@@ -1,0 +1,66 @@
+body {
+    background-image: url(/file/imeges/wood.jpg);
+    opacity: 0.8;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+#contents {
+    width: 1200px;
+	margin: 0 auto;
+}
+.result {
+    height: 590px;
+    width: 500px;
+    background-color: #000;
+    color: #fff;
+    border: solid 5px #fff;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+}
+
+.explain {
+    box-sizing: border-box;
+	height: 270px;
+    width: 500px;
+    background-color: #fff;
+    color: #000;
+    border: solid 5px #000;
+    float: left;
+    margin: 20px;
+    padding: 30px;
+}
+
+.editor {
+    box-sizing: border-box;
+	height: 300px;
+    width: 500px;
+    background-color: #fff;
+    color: #fff;
+    border: solid 5px #000;
+    float: left;
+    margin: 20px;
+}
+
+.editor textarea {
+    height: 268px;
+    width: 468px;
+    padding: 10px;
+    resize: none;
+}
+
+code {
+    position: relative;
+    font-size: 150%;
+    background-color: #eee;
+    padding: 5px 10px;
+    top: 10px;
+}
+footer {
+    clear: both;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
